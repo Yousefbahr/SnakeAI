@@ -12,7 +12,7 @@ HEIGHT, WIDTH, SIZE = 20, 20, 35
 pygame.init()
 screen = pygame.display.set_mode((HEIGHT * SIZE, WIDTH * SIZE))
 font = pygame.font.Font('freesansbold.ttf', 20)
-FPS = 600
+FPS = 30
 clock = pygame.time.Clock()
 background = pygame.Surface((HEIGHT * SIZE, WIDTH * SIZE))
 background.fill((255, 255, 255))
